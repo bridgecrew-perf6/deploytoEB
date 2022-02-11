@@ -12,7 +12,6 @@ require("dotenv").config();
 const http = require("http");
 const socketIO = require("socket.io");
 const bcrypt = require("bcrypt");
-const { truncate } = require("fs/promises");
 const path = require("path");
 /* -------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
